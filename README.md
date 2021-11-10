@@ -3,7 +3,8 @@
 In this project I analyzed the disaster data that I received from Figure Eight and built a ETL and ML pipeline to classify the messages that were sent during disaster events.  The ML pipeline is a model for an API that classifies the messages based on their content. The dataset consists of the real messages that has been stored in Figure Eight database. By reorganizing and cleaning the dataset through ETL process along with saving and importing processed data as SQLite database, I started working on ML pipeline step. After further analyzing the dataset and dropping unrelated columns, I tried out several ML models, within ML pipeline including DecisionTreeClassifier, MLPClassifier, and ExtraTreesClassifier and picked the one with best performance and saved the trained model as pickle file.  The ML pipeline that I built categorize these messages so that they can be sent to an appropriate disaster relief agency. It is worth noting that the message dataset has 36 pre-defined categories and ML model will classify the new messages based on its content and categorize the new incoming messages under one of those predefined categories. The model was finally, used to build a web app where an emergency worker can input a new message and get classification results in several categories.
 Below are a few screenshots of the web app.
 
-
+![ScreenShot-4](https://user-images.githubusercontent.com/88062869/141158775-e906e81f-9c8d-4bc1-8913-e5766f70cd54.png)
+![ScreenShot-3](https://user-images.githubusercontent.com/88062869/141159145-8e1907cc-4b92-457b-922a-66a1aa486ede.png)
  
  
 ## Installation
